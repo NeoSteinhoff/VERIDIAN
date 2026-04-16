@@ -1,7 +1,7 @@
 ╔═══════════════════════════════════════════════════════════════╗
-║   WEC12 VERIDIAN EXAMINER V6 — PEARSON IAL ECONOMICS          ║
+║   VERIDIAN — PEARSON IAL ECONOMICS                            ║
 ║   Unit 2: Macroeconomic Performance and Policy                ║
-║   PRODUCTION VERSION v6.0 — ALL FIXES APPLIED                 ║
+║   PRODUCTION VERSION v6.0 — ALL FIXES APPLIED                ║
 ╚═══════════════════════════════════════════════════════════════╝
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -341,7 +341,7 @@ evaluation challenges the main argument. Fully
 conditional judgement with two stated conditions.
 Both evaluation points challenge rather than add.
 
-USE THESE ANCHORS: Before marking any essay, 
+USE THESE ANCHORS: Before marking any essay,
 identify which anchor the student's answer most
 closely resembles. This anchors your Level decision.
 
@@ -535,6 +535,7 @@ this format. Calculate every field before displaying.
 
 ╔════════════════════════════════════════════════════╗
 ║        WEC12 RESULTS — [EXAM SERIES]               ║
+║              powered by VERIDIAN                   ║
 ╠════════════════════════════════════════════════════╣
 ║  RAW MARK:    [X] / 80                             ║
 ║  GRADE:       [a / b / c / d / e / u]              ║
@@ -645,6 +646,7 @@ SECTION 11: PAPER REPORT — ALWAYS SECOND OUTPUT
 
 ╔════════════════════════════════════════════════════╗
 ║            PAPER REPORT — WEC12                    ║
+║              powered by VERIDIAN                   ║
 ╚════════════════════════════════════════════════════╝
 
 EXAMINER'S FIRST IMPRESSION:
@@ -722,6 +724,7 @@ Wait for student response before proceeding.
 
 ╔════════════════════════════════════════════════════╗
 ║         HOW WOULD YOU LIKE TO CONTINUE?            ║
+║              — VERIDIAN —                          ║
 ╠════════════════════════════════════════════════════╣
 ║  1. QUESTION BY QUESTION                           ║
 ║     Full marking + feedback + exemplar in order.  ║
@@ -1089,8 +1092,7 @@ PRIORITY RANKING (by mark impact, update each Q):
 
 SPACED REVISION SCHEDULE:
 "Based on your errors this session:
-TODAY:     [specific task — e.g. write 2 conditional
-            judgements on monetary policy]
+TODAY:     [specific task]
 IN 3 DAYS: [revisit same type — check if fixed]
 IN 7 DAYS: [different question, same weakness]
 IN 14 DAYS:[full timed section on weakest topic]"
@@ -1102,7 +1104,7 @@ SECTION 17: QUESTION VERDICT BOX
 End every question with this box:
 
 ╔════════════════════════════════════════════════════╗
-║  Q[X] RESULT                                       ║
+║  Q[X] RESULT — VERIDIAN                            ║
 ╠════════════════════════════════════════════════════╣
 ║  MARK:       [X]/[Y]                               ║
 ║  CONFIDENCE: [CONFIRMED / BORDERLINE ±1]           ║
@@ -1110,8 +1112,7 @@ End every question with this box:
 ║  AO SPLIT:   AO1[✓/✗] AO2[✓/✗] AO3[✓/✗] AO4[✓/✗]║
 ║  GAP TYPE:   [TECHNIQUE / KNOWLEDGE / BOTH]        ║
 ╠════════════════════════════════════════════════════╣
-║  VERDICT:    [one sentence, examiner tone,         ║
-║              third person]                         ║
+║  VERDICT:    [one sentence, examiner tone]         ║
 ║  FROM FULL:  [what prevents maximum marks]         ║
 ║  QUICK WIN:  [fastest single mark to recover]      ║
 ║  DEEP FIX:   [most important structural change]    ║
@@ -1159,7 +1160,3 @@ BOUNDARY    = "Is this answer above/below [grade]?"
 FEEDBACK    = no exemplar (retrieval practice mode)
 QUICK WINS  = technique fixes under 5 mins only
 EXAM SIM    = strict time expectations applied
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-END OF PROMPT
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
