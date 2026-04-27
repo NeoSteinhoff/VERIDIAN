@@ -601,3 +601,187 @@ SOLUTIONS     = full A* worked solutions after every question
 DRILL         = marking + targeted topic drill
 EXAM-SIM      = strict time targets (~1 min/mark)
 ```
+
+---
+
+## SECTION 17: JUNE 2024 PAPER ANALYSIS — OFFICIAL EXAMINER INTELLIGENCE
+
+Source: Pearson WMA12/01 June 2024 Mark Scheme + Principal Examiner Report
+
+This section encodes confirmed examiner behaviour from a real WMA12 paper. Use this to calibrate marking decisions and flag recurring error patterns.
+
+---
+
+### PAPER SUMMARY (June 2024, 75 marks, 10 questions)
+
+| Q | Topic | Marks | Examiner Verdict |
+|---|-------|-------|-----------------|
+| 1 | Binomial expansion | 5 | Very accessible — large proportion scored full marks |
+| 2 | Arithmetic series | 7 | Generally well done — arithmetic slips cost most marks |
+| 3 | Logarithms | 6 | Well attempted but only small proportion full marks — log law errors costly |
+| 4 | Factor/remainder theorem + roots | 8 | Most got ≥6 — justification of root count was the hardest part |
+| 5 | Proof by inequality / counter-example | 6 | Most challenging topic — very few scored >3/6 |
+| 6 | Curve sketch + trapezium rule + integration | 9 | Part (b) accessible; parts (a) and (c) less secure |
+| 7 | Circles | 6 | Part (a) well done; part (b) very few progressed beyond M1 |
+| 8 | Trig equations + modelling | 12 | Varied — modelling context caused issues at the end |
+| 9 | Differentiation + integration (stationary/area) | 8 | Full marks in (a) common; part (b) majority failed strategy |
+| 10 | GP modelling (dormice/voles) | 8 | Indexing errors very common; part (c) rarely fully solved |
+
+---
+
+### CONFIRMED TRAP INSTANCES — JUNE 2024
+
+These are errors explicitly named in the June 2024 Examiner Report. Treat as highest-priority traps when marking.
+
+**TRAP: BINOMIAL — NEGATIVE SIGN IN COEFFICIENT (Q1a)**
+- Most common error: missing the negative sign from the coefficient of x in (1 - x/6)^9
+- Effect: scored M mark only for that term, A mark lost
+- Rule confirmed: sign error = M awarded, A lost
+
+**TRAP: BINOMIAL — UNSIMPLIFIED FINAL TERM (Q1a)**
+- Leaving the x³ term unsimplified: penalised if answer requires simplest form
+- Check: question says "simplest form" → all terms must be fully simplified
+
+**TRAP: BINOMIAL — DECIMAL NOT EXACT RECURRING (Q1b)**
+- 8.83 instead of 8.8̄3̄ = lose final A mark
+- Rule: if answer is a recurring decimal, it must be stated as exact recurring, not rounded
+
+**TRAP: ARITHMETIC SERIES — WRONG n IN FORMULA (Q2a)**
+- a + 5d = 6 seen instead of a + 5d = 2 (using u₆ = 6 instead of u₆ = 2)
+- Common slip: misreading the given value
+- Effect: B mark lost for that equation
+
+**TRAP: SERIES INEQUALITY — NOT ROUNDING UP (Q2b)**
+- Students who solved the quadratic correctly but gave decimal answer (34.2) instead of n = 35
+- Rule: n must be smallest INTEGER satisfying the inequality → always round UP, never truncate
+- Award A0 for n = 34 or n = 34.2
+
+**TRAP: LOG LAW — DISTRIBUTING LOG OVER BRACKETS (Q3i)**
+- log(2-x) treated as log2 - logx = ZERO marks for that step
+- Rule: this is a fundamental log law error, not a minor slip — no M credit for the combination step
+
+**TRAP: LOG LAW — COMBINING WITHOUT POWER LAW FIRST (Q3i)**
+- 2log(2-x) - log(x+10) combined as log((2-x)²/(x+10)) without showing 2log → log(...)² step
+- Loses B mark for log law demonstration
+
+**TRAP: LOG EQUATION — SELECTING WRONG ROOT (Q3i)**
+- x = 26 accepted without checking domain → A mark lost
+- x = -6 is the ONLY valid answer (x = 26 makes log(2-26) = log(-24) undefined)
+- Rule: both roots must be checked against domain; wrong root selected = A lost
+
+**TRAP: FACTOR THEOREM — EQUATING TO ZERO NOT SHOWN (Q4b)**
+- "Show that k = 11": substituting x = 1/2 without explicitly writing f(1/2) = 0 = lose A1*
+- This is a SHOW THAT question — the "= 0" must be explicitly stated, not implied
+
+**TRAP: FACTORISATION — NOT BRINGING TO ONE EXPRESSION (Q4c)**
+- Finding factors separately but not stating f(x) = (2x-1)(x²+x+1) as a single factorised expression = lose final A mark
+
+**TRAP: DISCRIMINANT — CALCULATING BUT NOT STATING INEQUALITY (Q4c-ii)**
+- Computing b² - 4ac = -3 but NOT writing -3 < 0 = lose A mark
+- Rule: must state (1) the calculated discriminant value AND (2) the inequality showing < 0 AND (3) conclude no real roots
+
+**TRAP: PROOF — DIVISION WITHOUT REASONING (Q5a)**
+- Dividing by 3xy to get (y-x) > 0 without stating "since x and y are positive, 3xy > 0, so inequality direction preserved"
+- Effect: final A1* lost — the reasoning about sign preservation is the mark
+
+**TRAP: COUNTER-EXAMPLE — BOTH VALUES POSITIVE (Q5b)**
+- Choosing x = 3, y = 1 (both positive) = M0 — only works for the stated condition, not a counter-example
+- Must have positive x and NEGATIVE y (e.g. x = 3, y = -1)
+
+**TRAP: TRAPEZIUM RULE — h FROM FORMULA NOT TABLE (Q6b)**
+- Using h = (b-a)/n instead of reading h from consecutive x-values in the table
+- June 2024: h = 0.3 (implied by consecutive x values 2, 2.3, 2.6...)
+- B mark for h lost if h is wrong
+
+**TRAP: INTEGRATION — USING TRAPEZIUM RULE AGAIN IN PART (c) (Q6c)**
+- Applying trapezium rule a second time in Q6(c) = M0A0 — no credit
+- Must use algebraic integration of the manipulated expression
+
+**TRAP: CIRCLE — FORGETTING TO SQUARE ROOT FOR RADIUS (Q7a)**
+- (x+4)² + (y-5)² = 70 → radius = √70 NOT radius = 70
+- A mark lost if radius given as 70
+
+**TRAP: CIRCLE — WRONG COMPARISON (Q7b)**
+- Comparing distance between centres to ONE radius instead of SUM of both radii
+- Effect: M1 awarded for distance calculation, dM1 lost for wrong comparison
+- Correct: d(centres) vs (r₁ + r₂). If d > r₁ + r₂: circles external, neither touch nor intersect
+
+**TRAP: CIRCLE PROOF — NO DECIMAL VALUES GIVEN (Q7b)**
+- Stating "√250 > √70 + √52 therefore circles don't intersect" WITHOUT computing decimal values (15.81 and 15.58) = A1* lost
+- Rule: must show calculated decimal comparisons to support the inequality conclusion
+
+**TRAP: TRIGONOMETRY — INCOMPLETE MULTIPLICATION BY cos x (Q8i)**
+- When clearing tan x = sin x/cos x: multiplying most terms by cos x but missing the constant 13
+- Effect: quadratic in cos x not reached correctly — M and A lost for that step
+
+**TRAP: TRIGONOMETRY — DEGREES FOR RADIAN ANSWER (Q8i)**
+- Answer required in radians — candidates working in degrees and converting late: M marks preserved, A marks for numerical answers lost if final answer wrong
+- x = 1.91 (radians) is required, not 109.47°
+
+**TRAP: TRIGONOMETRY MODELLING — OMITTING SECOND VALUE OF k (Q8ii-a)**
+- Finding k = 6.41 but omitting k = 17.59 = lose one A mark
+- Both values in the given range 0 < k < 20 must be stated
+
+**TRAP: TRIGONOMETRY MODELLING — NOT CONVERTING TIME (Q8ii-c)**
+- Getting t = 11.23 (hours) but not converting to 11:14 (time of day) = A mark lost
+- Rule: contextual questions require contextual final answer
+
+**TRAP: FRACTIONAL POWERS — WRONG STRATEGY FOR STATIONARY POINT (Q9a)**
+- Squaring dy/dx = 0 to get 144x - 25x³ = 0 (incorrect) instead of factoring out x^(1/2)
+- Examiner explicitly named squaring as a wrong method → A0 even if answer reached
+- Correct: factor x^(1/2) from 12x^(1/2) - 5x^(3/2) = 0 → x^(1/2)(12 - 5x) = 0
+
+**TRAP: EQUAL AREAS — WRONG EQUATION SETUP (Q9b)**
+- Setting Area R₁ = ∫₄ᵏ (integrated expression) = 1024/35 instead of ∫₄ᵏ = -1024/35
+- R₂ is below x-axis: integral from 4 to k is negative → must set equal to -(R₁) or use total integral from 0 to k = 0
+- Correct approach: ∫₀ᵏ y dx = 0, which gives (16/5)k^(5/2) - (4/7)k^(7/2) = 0 → k = 28/5
+
+**TRAP: GP MODELLING — INDEXING ERROR (Q10)**
+- After n years = aʳⁿ but students used ar^(n-1) (confusing value after n years with nth term)
+- Mark scheme allowed correct method with indexing errors to score M marks
+- Rule for VERIDIAN: award M if method is correct, A only if index is correct
+
+**TRAP: GP MODELLING — NOT WRITING EQUATION FOR N (Q10b)**
+- Finding correct values of a and b but not combining them into N = ab^t = lose final A mark
+- Must present as an equation, not just "a = 4000, b = 0.98"
+
+---
+
+### JUNE 2024 CONFIRMED MARK SCHEME NOTES (special cases)
+
+**Q1(a):** Listing terms without expansion structure is acceptable (not penalised) — question only asked for "first four terms"
+
+**Q1(b):** 53/6 × x³ left unsimplified is condoned (isw) — but coefficient must be extracted as 53/6 if asked for "coefficient"
+
+**Q2(b):** Equality (= 8000) acceptable throughout, not just inequality. 800 or 80000 misread: allow M mark (misread rule)
+
+**Q3(i):** Special case B1M0A0M1A0 allowed if student jumps from log work to correct quadratic without showing combination step
+
+**Q4(b):** k = 11 embedded in further working (without explicit isolation) is acceptable provided correct equation precedes it
+
+**Q6(a):** Graph in quadrant 1 only (not crossing into quadrant 2) = M0B1A0. Asymptote label missing but correctly drawn = A0. Conflicting information: what's on the graph takes precedence over written statement
+
+**Q6(b):** Missing final bracket in trapezium rule: allowed if correct answer follows (bracket recovered by answer)
+
+**Q8(ii)(a):** Accept k = 6.4 and 17.6 (2 s.f.) only if no more accurate answers stated — SC for 2 s.f. both given
+
+**Q9(a):** x = 0 as a solution: ignore (question seeks stationary point P which is non-zero)
+
+**Q10(a):** Successive iteration method (enumerating year by year) acceptable if ending at correct year
+
+---
+
+### JUNE 2024 TOPIC DIFFICULTY RANKING (for priority revision targeting)
+
+| Rank | Topic | Difficulty | Primary Error Type |
+|------|-------|------------|-------------------|
+| 1 (hardest) | Proof by algebra/counter-example (Q5) | Very Hard | Knowledge + reasoning |
+| 2 | Circle geometry proof (Q7b) | Hard | Method — strategy failure |
+| 3 | Integration strategy (Q9b) | Hard | Method — wrong equation |
+| 4 | GP modelling (Q10) | Hard | Knowledge — indexing |
+| 5 | Logarithm equations (Q3) | Medium-Hard | Knowledge — log laws |
+| 6 | Trig modelling context (Q8ii) | Medium | Technique — contextual answer |
+| 7 | Factorisation + roots (Q4) | Medium | Technique — proof rigour |
+| 8 | Trapezium rule application (Q6) | Medium | Technique — h calculation |
+| 9 | Arithmetic series (Q2) | Accessible | Arithmetic + rounding |
+| 10 (easiest) | Binomial expansion (Q1) | Accessible | Sign errors + simplification |
